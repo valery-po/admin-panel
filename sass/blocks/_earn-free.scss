@@ -1,0 +1,99 @@
+.earn-free__wrapper {
+  position: relative;
+  align-self: flex-start;
+   &::before {
+    content: "";
+    position: absolute;
+    z-index: 2;
+    width: 345px;
+    height: 48px;
+    bottom: -16px;
+    background: #dfdfe3;
+    border-radius: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+   &::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 295px;
+    height: 48px;
+    bottom: -28px;
+    background: #f0f0f1;
+    border-radius: 24px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.earn-free {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  z-index: 9;
+  padding: 60px 40px 60px 34px;
+  width: 410px;
+  height: 363px;
+  background: #222;
+  border-radius: 30px;
+  font-size: 15px;
+  line-height: 1.45;
+  color: #fff;
+  //letter-spacing: 0.02;
+  background-image: url('../../img/earn-card/bg-card.svg');
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-position: right bottom;
+}
+
+.earn-free__logo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  
+}
+
+.earn-free__title {
+  font-size: 30px;
+  font-weight: 600;
+  //letter-spacing: 0.02;
+  color: #fff;
+  margin-bottom: 11px;
+  
+  b {
+    font-weight: 700;
+  }
+}
+
+.earn-free__text {
+margin-bottom: 35px;
+}
+
+.earn-free__title-free {
+  display: inline-block;
+  background-image: url('../../img/earn-card/free.svg');
+  width: 97px;
+  height: 75px;
+  font-size: 0;
+  vertical-align: middle;
+}
+
+.earn__crypto {
+  max-width: 100%;
+}
+
+.earn-free__button {
+  display: inline-block;
+  padding-left: 36px;
+  padding-right: 36px;
+  height: 46px;
+  background: #bcdfff;
+  border-radius: 23px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 46px;
+  color: #000;
+}

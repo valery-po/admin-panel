@@ -1,0 +1,64 @@
+.assets-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 174px; //194
+  min-height: 244px;
+  background: #e5def0;
+  border-radius: 24px;
+  padding-top: 30px;
+  padding-right: 24px;
+  padding-bottom: 26px;
+  padding-left: 25px;
+  
+  &--ltc {
+    background: #d6edda;
+  }
+  
+  &--eth {
+    background: #f6f0d8;
+  }
+}
+
+.assets-card__value {
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  color: #000;
+  margin-bottom: 5px;
+}
+
+.assets-card__fiat {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+ 
+}
+
+.assets-card__income {
+  font-size: 15px;
+  letter-spacing: 0.02em;
+  color: #896ab9;
+}
+
+.assets-card__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  background: #fff;
+  border-radius: 14px;
+}
+
+.assets-card__settings {
+  position: absolute;
+  top: 37px;
+  right: 24px;
+}
+
+.assets-card__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

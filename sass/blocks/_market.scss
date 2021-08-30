@@ -1,0 +1,18 @@
+.market {
+  flex-grow: 1;
+}
+
+.market__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.market__header-buttons {
+  display: flex;
+  
+  & > * + * {
+    margin-left: 16px;
+  }
+  
+}

@@ -1,0 +1,29 @@
+.coin {
+  display: flex;
+  align-items: center;
+}
+
+.coin__icon  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    margin-right: 15px;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+  background-color: #222;
+}
+
+.coin__title {
+  font-weight: 600;
+  font-size: 15px;
+  color: #000;
+  letter-spacing: 0.02em;
+  margin-bottom: 3px;
+}
+
+.coin__descr {
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #7a899a;
+}
